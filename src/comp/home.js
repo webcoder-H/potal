@@ -2,15 +2,14 @@ import React , {Component}from 'react';
 import ReactDOM from "react-dom";
 import {theme} from "./script.js"
 
-class Bodyi extends React.Component {
+class home extends React.Component {
   componentDidMount() {
     theme();
   }
   render(){
   return (
     <div className="Content" ref={el => (this.div = el)}>
-    <h1> Name </h1>
-
+     <h3>Educational Potal</h3>
 
 
 
@@ -23,4 +22,4 @@ class Bodyi extends React.Component {
 }
 }
 
-export default Bodyi;
+export default home;

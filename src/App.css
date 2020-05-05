@@ -7,17 +7,17 @@
   --bg-secondary: #141418;
   --transition-speed: 600ms;
 }
-
+.Content{
+  margin-left: 120px;
+}
 body {
-  color: black;
+  color: var(--text-primary);
   background-color: var(--bg-main);
   margin: 0;
   padding: 0;
 
 }
-h1{
-  align-self: center;
-}
+
 body::-webkit-scrollbar {
   width: 0.25rem;
 }
@@ -35,13 +35,14 @@ main {
   padding: 1rem;
 }
 
-.navbar {
+.navb0r {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
+  z-index: 1000;
 }
 
-.navbar-nav {
+.navb0r-nav {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -51,15 +52,15 @@ main {
   height: 100%;
 }
 
-.nav-item {
+.nav4item {
   width: 100%;
 }
 
-.nav-item:last-child {
+.nav4item:last-child {
   margin-top: auto;
 }
 
-.nav-link {
+.na4-link {
   display: flex;
   align-items: center;
   height: 5rem;
@@ -69,18 +70,18 @@ main {
   transition: var(--transition-speed);
 }
 
-.nav-link:hover {
+.na4-link:hover {
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
   color: var(--text-secondary);
 }
 
-.link-text {
+.link4txt {
   display: none;
   margin-left: 1rem;
 }
 
-.nav-link svg {
+.na4-link svg {
   width: 2rem;
   min-width: 2rem;
   margin: 0 1.5rem;
@@ -99,7 +100,7 @@ main {
   transition: var(--transition-speed);
 }
 
-.logo {
+.log0 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -111,12 +112,12 @@ main {
   width: 100%;
 }
 
-.logo svg {
+.log0 svg {
   transform: rotate(0deg);
   transition: var(--transition-speed);
 }
 
-.logo-text
+.log0-text
 {
   display: inline;
   position: absolute;
@@ -124,30 +125,32 @@ main {
   transition: var(--transition-speed);
 }
 
-.navbar:hover .logo svg {
+.navb0r:hover .log0 svg {
   transform: rotate(-180deg);
 }
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
-  .navbar {
+  .navb0r {
     bottom: 0;
     width: 100vw;
     height: 5rem;
   }
 
-  .logo {
+  .log0 {
     display: none;
   }
 
-  .navbar-nav {
+  .navb0r-nav {
     flex-direction: row;
   }
 
-  .nav-link {
+  .na4-link {
     justify-content: center;
   }
-
+  .Content{
+    margin-left: 10px;
+  }
   main {
     margin: 0;
   }
@@ -155,26 +158,26 @@ main {
 
 /* Large screens */
 @media only screen and (min-width: 600px) {
-  .navbar {
+  .navb0r {
     top: 0;
     width: 5rem;
     height: 100vh;
   }
 
-  .navbar:hover {
+  .navb0r:hover {
     width: 16rem;
   }
 
-  .navbar:hover .link-text {
+  .navb0r:hover .link4txt {
     display: inline;
   }
 
-  .navbar:hover .logo svg
+  .navb0r:hover .log0 svg
   {
     margin-left: 11rem;
   }
 
-  .navbar:hover .logo-text
+  .navb0r:hover .log0-text
   {
     left: 0px;
   }
