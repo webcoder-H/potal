@@ -10,6 +10,8 @@ import res  from "./comp/res";
 import Uni  from "./comp/uni";
 import Sch  from "./comp/school";
 import About  from "./comp/about";
+import Video from "./comp/video";
+
 
 
 
@@ -22,10 +24,12 @@ function App() {
 
     <NavBar/>
     <Route exact path="/"  component={Home} />
-    <Route path="/resources"  component={res} />
-    <Route path="/uni"  component={Uni} />
-    <Route path="/school"  component={Sch} />
-    <Route path="/about"  component={About} />
+    <Route exact path="/resources"  component={res} />
+    <Route exact path="/uni"  component={Uni} />
+    <Route exact path="/school"  component={Sch} />
+    <Route exact path="/about"  component={About} />
+    <Route exact path="/video/:videoName" component={Video}/>
+
 
 
 
