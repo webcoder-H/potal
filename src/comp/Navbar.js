@@ -75,7 +75,7 @@ class NavBar extends React.Component {
           </Link>
         </li>
 
-        <li class="nav4item" id="themeButton">
+        <li class="nav4item mobi" id="themeButton">
           <a href="#" class="na4-link">
             <svg
               class="theme-icon"

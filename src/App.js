@@ -11,6 +11,8 @@ import Uni  from "./comp/uni";
 import Sch  from "./comp/school";
 import About  from "./comp/about";
 import Video from "./comp/video";
+import Video1 from "./comp/gdrive";
+
 
 
 
@@ -29,6 +31,8 @@ function App() {
     <Route exact path="/school"  component={Sch} />
     <Route exact path="/about"  component={About} />
     <Route exact path="/video/:videoName" component={Video}/>
+    <Route exact path="/gdrive/:videoName" component={Video1}/>
+
 
 
 

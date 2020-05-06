@@ -133,7 +133,7 @@ main {
 @media only screen and (max-width: 600px) {
   .navb0r {
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     height: 5rem;
   }
 
@@ -150,6 +150,11 @@ main {
   }
   .Content{
     margin-left: 10px;
+  }
+  .mobi{
+    position: absolute;
+    bottom: 100%;
+    left: 40%;
   }
   main {
     margin: 0;
@@ -211,7 +216,7 @@ main {
 }
 
 .theme-icon {
-  display: none;
+  display:;
 }
 
 .dark #darkIcon {
