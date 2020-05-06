@@ -13,6 +13,11 @@ import About  from "./comp/about";
 import Video from "./comp/video";
 import Video1 from "./comp/gdrive";
 import Submit from "./comp/submit";
+import SectionD from "./comp/sectiond";
+import Tma201 from "./comp/tma201";
+import Tcs201 from "./comp/tcs201";
+
+
 
 
 
@@ -35,6 +40,11 @@ function App() {
 
     <Route exact path="/video/:videoName" component={Video}/>
     <Route exact path="/gdrive/:videoName" component={Video1}/>
+    <Route exact path="/sectiond" component={SectionD}/>
+    <Route exact path="/tma" component={Tma201}/>
+    <Route exact path="/tcs" component={Tcs201}/>
+
+
 
 
 

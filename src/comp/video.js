@@ -42,7 +42,7 @@ function Video(props) {
     {title:"Laplace Transform: Division by t and mixed problem", vid:"A1Xn5a2t_iM"},
     {title:"Unit step function & Second Shifting Theorem",vid:"M7yGsyJ6_5U"}
   ],
-  "Quantum mechanics By Dr Deepak Sir":[
+  "TPH201 By Dr Deepak Sir":[
     {title:"L-1 Introduction to Quantum mechanics",vid:"b0IXz4lxOBc"},
      {title:"L-2 de Broglie Hypothesis and Heisenberg Uncertainty Principle",vid:"h_zXEWl0phI"},
      {title:"L-3 Wave function and Schrodinger Equations",vid:"DQWfh9WQAkQ"},
