@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import {theme} from "./script.js";
 import Uni from "./img/uni.png";
 import Sch from "./img/school.png";
+import {Link} from 'react-router-dom';
+
 
 
 class res extends React.Component {
@@ -16,6 +18,7 @@ class res extends React.Component {
 
      <div class="row">
       <div class="col s12 m5">
+       <Link to="/uni">
             <div class="card">
        <div class="card-image">
          <img src={Uni}/>
@@ -25,13 +28,15 @@ class res extends React.Component {
          <p>This section contains all the free resouces from the youtube as well as other resouces contributed by University Students and Teachers.</p>
        </div>
        <div class="card-action">
-         <a href="#">Get Started</a>
+         <Link to="/uni">Get Started</Link>
        </div>
      </div>
+     </Link>
    </div>
 
   <div class="col s12 m5">
         <div class="card">
+        <Link to="/school">
    <div class="card-image">
      <img src={Sch}/>
      <span class="card-title">Resources For School Students</span>
@@ -40,9 +45,13 @@ class res extends React.Component {
    <p>This section contains all the free resouces from the youtube as well as other resouces contributed by other School Students and Teachers.</p>
    </div>
    <div class="card-action">
-     <a href="#">Get Started</a>
+     <Link to="/school">Get Started</Link>
    </div>
+   </Link>
  </div>
+
+
+
 </div>
 </div>
 

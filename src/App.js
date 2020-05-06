@@ -9,24 +9,28 @@ import Home  from "./comp/home";
 import res  from "./comp/res";
 import Uni  from "./comp/uni";
 import Sch  from "./comp/school";
+import About  from "./comp/about";
+
 
 
 
 
 function App() {
   return (
-    <div className="App">
     <BrowserRouter>
+    <div className="App">
+
     <NavBar/>
     <Route exact path="/"  component={Home} />
     <Route path="/resources"  component={res} />
     <Route path="/uni"  component={Uni} />
     <Route path="/school"  component={Sch} />
+    <Route path="/about"  component={About} />
 
 
 
-    </BrowserRouter>
     </div>
+    </BrowserRouter>
   );
 }
 
