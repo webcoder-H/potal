@@ -136,6 +136,12 @@ main {
     width: 100%;
     height: 5rem;
   }
+  .na4-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+  }
 
   .log0 {
     display: none;
@@ -145,16 +151,16 @@ main {
     flex-direction: row;
   }
 
-  .na4-link {
-    justify-content: center;
-  }
+
   .Content{
     margin-left: 10px;
   }
   .mobi{
     position: absolute;
     bottom: 100%;
-    left: 40%;
+    left: 80%;
+
+
   }
   main {
     margin: 0;
