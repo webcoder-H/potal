@@ -17,7 +17,8 @@ class Sectiond extends React.Component {
     <Link to="/tcs" class="collection-item"><span class="badge"></span>TCS201</Link>
     <Link to="/video/TPH201%20By%20Dr%20Deepak%20Sir" class="collection-item"><span class="badge"></span>TPH201</Link>
     <Link to="/Elec" class="collection-item"><span class="badge"></span>Electrical Lab</Link>
-
+    <a href="https://drive.google.com/drive/folders/1fphxJDJKf5E0ZDXMwk2oVT2T41pmZrwt?usp=sharing" class="collection-item"><span class="badge"></span>Phy. Lab Resouces</a>
+    <a href="https://drive.google.com/drive/folders/1Xs5XoAGhB2dD7MYKJvL2T0gdtmOf7l-q?usp=sharing" class="collection-item"><span class="badge"></span>Workshop Resouces</a>
       </div>
 <br/>
 <br/>

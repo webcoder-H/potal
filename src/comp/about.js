@@ -11,7 +11,8 @@ class About extends React.Component {
     <div className="Content" ref={el => (this.div = el)}>
     <h1>About us</h1>
     <p>We are team of students who got bored after watching web series and desided to build some thing to make our life easy.(but it has done something different)</p>
-    <h4> For now This page is our least priority </h4>
+     <p>we desided to build a cool solution to solve our Problems and help others.  </p>
+     <a href="https://github.com/webcoder-H/potal"><h5>Find us on Github</h5></a>
 
 
 
