@@ -5,6 +5,8 @@ import Phy from "./img/phy.jpg";
 import Chem from "./img/Chemistry.jpg";
 import For from "./img/4th.jpg";
 import The3 from "./img/3rd.jpg";
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -19,6 +21,7 @@ class Uni extends React.Component {
   return (
     <div className="Content" ref={el => (this.div = el)}>
     <h1>Resources For University Students</h1>
+    <Link to="/404">
 
      <div class="row">
       <div class="col s12 m5">
@@ -95,7 +98,7 @@ class Uni extends React.Component {
 
 
 
-
+</Link>
 
 
 

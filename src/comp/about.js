@@ -16,7 +16,7 @@ class About extends React.Component {
     <p>We are team of students who got bored after watching web series and desided to build some thing to make our life easy.(but it has done something different)</p>
      <p>we desided to build a cool solution to solve our Problems and help others.  </p>
      <a href="https://github.com/webcoder-H"><h5>Find us on Github</h5></a>
-     <Link to="/sectiond">back to sectin-d</Link>
+     <Link to="/sectiond">back to section-d</Link>
 
      <br/>
      <br/>

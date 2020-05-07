@@ -4,6 +4,8 @@ import {theme} from "./script.js"
 import Tw12 from "./img/12.jpg";
 import El11 from "./img/11.jpg";
 import Th10 from "./img/10.jpg";
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -20,6 +22,7 @@ class Sch extends React.Component {
 
       <div class="row">
        <div class="col s12 m5">
+         <Link to="/404">
              <div class="card">
         <div class="card-image">
           <img src={Tw12}/>
@@ -29,12 +32,15 @@ class Sch extends React.Component {
           <p>This section contains all the free Resources for Physcis Group Students.</p>
         </div>
         <div class="card-action">
-          <a href="#">Get Started</a>
+        Get Started
         </div>
       </div>
+      </Link>
     </div>
 
    <div class="col s12 m5">
+   <Link to="/404">
+
          <div class="card">
     <div class="card-image">
       <img src={El11}/>
@@ -46,12 +52,16 @@ class Sch extends React.Component {
     <div class="card-action">
       <a href="#">Get Started</a>
     </div>
+
   </div>
+  </Link>
  </div>
 
  </div>
  <div class="row">
   <div class="col s12 m5">
+  <Link to="/404">
+
         <div class="card">
    <div class="card-image">
      <img src={Th10}/>
@@ -63,11 +73,16 @@ class Sch extends React.Component {
    <div class="card-action">
      <a href="#">Get Started</a>
    </div>
+
  </div>
+ </Link>
  </div>
 
  <div class="col s12 m5">
+ <Link to="/404">
+
     <div class="card">
+
  <div class="card-image">
  <img src={Th10}/>
  <span class="card-title">4th Semester Resources</span>
@@ -80,6 +95,7 @@ class Sch extends React.Component {
 
  </div>
  </div>
+ </Link>
  </div>
 
  </div>

@@ -18,6 +18,7 @@ import Tma201 from "./comp/tma201";
 import Tcs201 from "./comp/tcs201";
 import Upnav from "./comp/upnav";
 import Elec from "./comp/electrical";
+import Ee from "./comp/ee";
 
 
 
@@ -49,6 +50,9 @@ function App() {
     <Route exact path="/tma" component={Tma201}/>
     <Route exact path="/tcs" component={Tcs201}/>
     <Route exact path="/Elec" component={Elec}/>
+    <Route exact path="/404" component={Ee}/>
+
+
 
 
 
