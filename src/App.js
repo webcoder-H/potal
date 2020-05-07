@@ -6,7 +6,7 @@ import {BrowserRouter ,Route} from 'react-router-dom';
 import NavBar from "./comp/Navbar";
 import Bodyi  from "./comp/body";
 import Home  from "./comp/home";
-import res  from "./comp/res";
+import Res  from "./comp/res";
 import Uni  from "./comp/uni";
 import Sch  from "./comp/school";
 import About  from "./comp/about";
@@ -37,7 +37,7 @@ function App() {
     <NavBar/>
     <Upnav/>
     <Route exact path="/"  component={Home} />
-    <Route exact path="/resources"  component={res} />
+    <Route exact path="/resources"  component={Res} />
     <Route exact path="/uni"  component={Uni} />
     <Route exact path="/school"  component={Sch} />
     <Route exact path="/about"  component={About} />

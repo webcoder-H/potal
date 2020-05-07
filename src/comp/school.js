@@ -1,9 +1,9 @@
 import React , {Component}from 'react';
 import ReactDOM from "react-dom";
 import {theme} from "./script.js"
-import Tw12 from "./img/12.png";
-import El11 from "./img/11.png";
-import Th10 from "./img/10.png";
+import Tw12 from "./img/12.jpg";
+import El11 from "./img/11.jpg";
+import Th10 from "./img/10.jpg";
 
 
 

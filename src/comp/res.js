@@ -1,13 +1,13 @@
 import React , {Component}from 'react';
 import ReactDOM from "react-dom";
 import {theme} from "./script.js";
-import Uni from "./img/uni.png";
-import Sch from "./img/school.png";
+import Uni from "./img/uni.jpg";
+import Sch from "./img/school.jpg";
 import {Link} from 'react-router-dom';
 
 
 
-class res extends React.Component {
+class Res extends React.Component {
   componentDidMount() {
     theme();
   }
@@ -70,4 +70,4 @@ class res extends React.Component {
 }
 }
 
-export default res;
+export default Res;
