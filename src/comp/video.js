@@ -57,7 +57,10 @@ function Video(props) {
         <div>
         <h3>{title}</h3>
         <div class="video-container">
+        
+
   <iframe width="40%" height="25%" src={"//www.youtube.com/embed/"+ vid +"?rel=0"} frameBorder="0" allowfullscreen></iframe>
+
 </div>
 </div>
 )

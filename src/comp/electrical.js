@@ -11,7 +11,7 @@ class Elec extends React.Component {
   render(){
   return (
     <div className="Content" ref={el => (this.div = el)}>
-    <h1> Collection of All  Resouces Only For Section D Students  </h1>
+    <h1>Electrical Lab  </h1>
     <div class="collection">
 
     <a href="https://drive.google.com/drive/folders/1hXYkdW6Vf5kBVxyqD_8w55IUY_wFcsAq" class="collection-item" target="_blank"><span class="badge"></span>Gdrive link</a>

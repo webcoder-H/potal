@@ -15,7 +15,7 @@ class NavBar extends React.Component {
       <ul class="navb0r-nav">
         <li class="log0">
           <a href="/sch" class="na4-link">
-            <span class="link4txt log0-text">Studyship</span>
+            <span class="link4txt log0-text">ResourceFul</span>
             <svg
               aria-hidden="true"
               focusable="false"
