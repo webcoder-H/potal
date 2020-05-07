@@ -16,6 +16,10 @@ import Submit from "./comp/submit";
 import SectionD from "./comp/sectiond";
 import Tma201 from "./comp/tma201";
 import Tcs201 from "./comp/tcs201";
+import Upnav from "./comp/upnav";
+import Elec from "./comp/electrical";
+
+
 
 
 
@@ -31,6 +35,7 @@ function App() {
     <div className="App">
 
     <NavBar/>
+    <Upnav/>
     <Route exact path="/"  component={Home} />
     <Route exact path="/resources"  component={res} />
     <Route exact path="/uni"  component={Uni} />
@@ -43,6 +48,8 @@ function App() {
     <Route exact path="/sectiond" component={SectionD}/>
     <Route exact path="/tma" component={Tma201}/>
     <Route exact path="/tcs" component={Tcs201}/>
+    <Route exact path="/Elec" component={Elec}/>
+
 
 
 
