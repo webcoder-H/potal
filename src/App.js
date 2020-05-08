@@ -19,6 +19,9 @@ import Tcs201 from "./comp/tcs201";
 import Upnav from "./comp/upnav";
 import Elec from "./comp/electrical";
 import Ee from "./comp/ee";
+import Dev from "./comp/cbse12";
+import Math from "./comp/maths12";
+import Mathematics from "./comp/video1";
 
 
 
@@ -43,6 +46,8 @@ function App() {
     <Route exact path="/school"  component={Sch} />
     <Route exact path="/about"  component={About} />
     <Route exact path="/submit"  component={Submit} />
+    <Route exact path = "/cbse12" component = {Dev}/>
+    <Route exact path = "/maths12" component = {Math }/>
 
     <Route exact path="/video/:videoName" component={Video}/>
     <Route exact path="/gdrive/:videoName" component={Video1}/>
@@ -51,6 +56,7 @@ function App() {
     <Route exact path="/tcs" component={Tcs201}/>
     <Route exact path="/Elec" component={Elec}/>
     <Route exact path="/404" component={Ee}/>
+    <Route exact path = "/video1/:videoName" component = {Mathematics}/>
 
 
 
