@@ -23,6 +23,8 @@ import Dev from "./comp/cbse12";
 import Math from "./comp/maths12";
 import Mathematics from "./comp/video1";
 import Tenth from "./comp/cbse10";
+import Math10 from "./comp/maths10";
+import Mathematics10 from "./comp/video2";
 
 
 
@@ -48,8 +50,9 @@ function App() {
     <Route exact path="/about"  component={About} />
     <Route exact path="/submit"  component={Submit} />
     <Route exact path = "/cbse12" component = {Dev}/>
-    <Route exact path = "/maths12" component = {Math }/>
-     <Route exact path = "/cbse10" component = {Tenth}/>
+    <Route exact path = "/maths12" component = {Math}/>
+    <Route exact path = "/cbse10" component = {Tenth}/>
+    <Route exact path = "/maths10" component = {Math10}/>
 
     <Route exact path="/video/:videoName" component={Video}/>
     <Route exact path="/gdrive/:videoName" component={Video1}/>
@@ -59,6 +62,7 @@ function App() {
     <Route exact path="/Elec" component={Elec}/>
     <Route exact path="/404" component={Ee}/>
     <Route exact path = "/video1/:videoName" component = {Mathematics}/>
+    <Route exact path = "/video2/:videoName" component = {Mathematics10}/>
 
 
 
