@@ -150,10 +150,11 @@ main {
     bottom: 0;
     width: 0rem;
     height: 0rem;
-    left: -100px;
+    right: 45%;
   }
   .na4-link {
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 5rem;
     text-decoration: none;
@@ -165,6 +166,8 @@ main {
 
   .navb0r-nav {
     flex-direction: row;
+    height: 10px;
+
   }
 
 
@@ -175,7 +178,7 @@ main {
   .mobi{
     position: absolute;
     bottom: 100%;
-    left: 80%;
+    right: 80%
 
 
   }
