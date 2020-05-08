@@ -148,8 +148,9 @@ main {
 @media only screen and (max-width: 600px) {
   .navb0r {
     bottom: 0;
-    width: 0%;
+    width: 0rem;
     height: 0rem;
+    left: -100px;
   }
   .na4-link {
     display: flex;
