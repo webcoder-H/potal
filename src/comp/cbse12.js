@@ -27,7 +27,23 @@ class Dev extends React.Component {
             <div class="card">
        <div class="card-image">
          <img src={Phy}/>
-         <span class="card-title">Resources For University Students</span>
+         <span class="card-title">Mathematics</span>
+       </div>
+       <div class="card-content">
+         <p>This section contains all the free resouces from the youtube as well as other resouces contributed by University Students and Teachers.</p>
+       </div>
+       <div class="card-action">
+         <Link to="/maths12">Get Started</Link>
+       </div>
+     </div>
+     </Link>
+   </div>
+   <div class="col s12 m5">
+       <Link to="/maths12">
+            <div class="card">
+       <div class="card-image">
+         <img src={Phy}/>
+         <span class="card-title">Physics</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free resouces from the youtube as well as other resouces contributed by University Students and Teachers.</p>
