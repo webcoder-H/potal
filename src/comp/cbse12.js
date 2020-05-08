@@ -23,7 +23,7 @@ class Dev extends React.Component {
 
      <div class="row">
        <div class="col s12 m5">
-       <Link to="/maths12">
+       <Link to="/maths10">
             <div class="card">
        <div class="card-image">
          <img src={Phy}/>
@@ -33,7 +33,7 @@ class Dev extends React.Component {
          <p>This section contains all the free resouces from the youtube as well as other resouces contributed by University Students and Teachers.</p>
        </div>
        <div class="card-action">
-         <Link to="/maths12">Get Started</Link>
+         <Link to="/maths10">Get Started</Link>
        </div>
      </div>
      </Link>
