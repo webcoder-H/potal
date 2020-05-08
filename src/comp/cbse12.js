@@ -1,10 +1,10 @@
 import React , {Component}from 'react';
 import ReactDOM from "react-dom";
 import {theme} from "./script.js";
-import Phy from "./img/phy.png";
-import Chem from "./img/Chemistry.png";
-import For from "./img/4th.png";
-import The3 from "./img/3rd.png";
+import Phy from "./img/phy.jpg";
+import Chem from "./img/Chemistry.jpg";
+import For from "./img/4th.jpg";
+import The3 from "./img/3rd.jpg";
 import {Link} from 'react-router-dom';
 
 
