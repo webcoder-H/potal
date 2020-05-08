@@ -55,6 +55,46 @@ class Res extends React.Component {
 </div>
 </div>
 
+     <div class="row">
+      <div class="col s12 m5">
+       <Link to="/cbse12">
+            <div class="card">
+       <div class="card-image">
+         <img src={Uni}/>
+         <span class="card-title">This one is For 12th Class CBSE students</span>
+       </div>
+       <div class="card-content">
+         <p>This section contains all the free resouces from the youtube as well as other resouces contributed by University Students and Teachers.</p>
+       </div>
+       <div class="card-action">
+         <Link to="/cbse12">Get Started</Link>
+       </div>
+     </div>
+     </Link>
+   </div>
+
+  <div class="col s12 m5">
+        <div class="card">
+        <Link to="/cbse10">
+   <div class="card-image">
+     <img src={Sch}/>
+     <span class="card-title">This one is for 10th class Students </span>
+   </div>
+   <div class="card-content">
+   <p>This section contains all the free resouces from the youtube as well as other resouces contributed by other School Students and Teachers.</p>
+   </div>
+   <div class="card-action">
+     <Link to="/cbse10">Get Started</Link>
+   </div>
+   </Link>
+ </div>
+
+
+
+</div>
+</div>
+
+
 
 
 
