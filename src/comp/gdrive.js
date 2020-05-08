@@ -26,7 +26,7 @@ function Video1(props) {
         <>
         <h1>{title}</h1>
         <div class="video-container">
-  <iframe width="40%" height="25%" src={vid} frameBorder="0" allowfullscreen></iframe>
+  <iframe width="40%" height="25%" src={vid} frameBorder="0" allowFullScreen="allowFullScreen" and frameBorder="0"></iframe>
 </div>
 </>
 )
