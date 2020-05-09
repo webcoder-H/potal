@@ -77,7 +77,7 @@ class Math extends React.Component {
 
 <div class="col s12 m5">
    <div class="card">
-    <Link to="/video1/Determinantss">
+    <Link to="/video1/Determinants">
 <div class="card-image">
 <img src={For}/>
 <span class="card-title">Determinants</span>
@@ -257,7 +257,7 @@ class Math extends React.Component {
    </div>
    </div>
 
-  
+
 <br/>
 
 
