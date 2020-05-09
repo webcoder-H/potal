@@ -64,9 +64,9 @@ function App() {
     <Route exact path="/tcs" component={Tcs201}/>
     <Route exact path="/Elec" component={Elec}/>
     <Route exact path="/404" component={Ee}/>
-    <Route exact path = "/video1/:videoName" component = {Mathematics}/>
-    <Route exact path = "/video2/:videoName" component = {Mathematics10}/>
-    <Route exact path = "/video3/:videoName" component = {Phy12}/>
+    <Route exact path = "/Maths/:videoName" component = {Mathematics}/>
+    <Route exact path = "/Maths10/:videoName" component = {Mathematics10}/>
+    <Route exact path = "/Physics12/:videoName" component = {Phy12}/>
 
 
 
