@@ -78,36 +78,80 @@ function Phy12(props) {
 ],
 Electrostatic_Potential_and_Capacitance: [
     {
-        title: "Inverse Trigonometric Functions Class 12 in 1 Shot By Neha ma'am",
-        vid: "PxP1wc4sETs"
+        title: "Chapter 2 I Electrostatic Potential and Capacitance 01 : Electric Potential Introduction",
+        vid: "KV5HL1AgLeY"
     },
     {
-        title: "Inverse Trigonometric Functions Intro",
-        vid: "2RZojAoBTSA"
+        title: "Electrostatic Potential and Capacitance 02 : Potential due to an Electric Dipole",
+        vid: "FDy0FyOW6TE"
     },
     {
-        title: "Inverse Trigonometric functions, Domain and Range",
-        vid: "Fg4LYx1W1Kg"
+        title: "Electrostatic Potential and Capacitance 03 : Relation between Field (E) and Potential (V)",
+        vid: "vBLlS5E8Ogw"
     },
     {
-        title: "Inverse Trigonometric Functions exercise 2.1 ",
-        vid: "5WknicFh6gw"
+        title: "Electrostatic Potential and Capacitance 04 : Potential due to Charged Spheres ",
+        vid: "gewhMY2243w"
     },
     {
-        title: "Inverse Trigonometric functions Exercise 2.2, NCERT EX. 2.2 Part-1",
-        vid: "1qNu1XKTmOg"
+        title: "Electrostatic Potential and Capacitance 05 : Potential in Concentric Shells ",
+        vid: "qnO0MGka10E"
     },
     {
-        title: "Inverse Trigonometric functions || NCERT EX. 2.2 Part-2 ",
-        vid: "vcdmjeuEzWo"
+        title: "Electrostatic Potential and Capacitance 06 : Equipotential Surfaces ",
+        vid: "6XTrWlzp59k"
     },
     {
-        title: "NCERT EX. Misc || Inverse Trigonometric functions ",
-        vid: "aZSIBQLoTDg"
+        title: "Electrostatic Potential and Capacitance 07 : Electrostatic Potential Energy ",
+        vid: "RzwnXoX52y0"
     },
     {
-        title: "NCERT EX. Misc || Inverse Trigonometric functions ",
-        vid: "8iq0KgxSBU0"
+        title: "Electrostatic Potential and Capacitance 08 : Potential Energy of Electric Dipole in Uniform Field ",
+        vid: "oAwCf-l7J3w"
+    },
+    {
+        title: "Electrostatic Potential and Capacitance 09 : CAPACITOR -1: Introduction : Spherical Capacitance",
+        vid: "w1e2kdzUePk"
+    },
+    {
+        title: "Electrostatic Potential and Capacitance 10 : CAPACITOR-2 : Parallel Plate Capacitor  ",
+        vid: "_c9I2-OwKCc"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 11 : Series and Parallel Combination Of Capacitors -1 (BASICS)",
+        vid: "yNa4oray8_8"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 12 : Combination Of Capacitors -2 Infinite Network & Many more ",
+        vid: "6ONh1Z1ql5s"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 13 : Effect of Dielectric in Capacitors ",
+        vid: "hXXpS4JlDwk"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 14 : Dielectric Inserted with Battery Connected or Removed",
+        vid: "Ch8qVm6lsZQ"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 15 : Circuits with Capacitor and Resistor both ",
+        vid: "SMoFkXtttSM"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 16 :CHARGE DISTRIBUTION METHOD to find Equivalent Capacitance",
+        vid: "BgOMGZVkaYs"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 17 : Spherical Capacitor and Cylindrical Capacitor ",
+        vid: "iXI_-X7Wxys"
+    },
+    {
+        title: "Electrostatic Potential n Capacitance 18 :Charging and Discharging of Capacitor -RC Circuit",
+        vid: "kc-SCAkOcO4"
+    },
+    {
+        title: "Electrostatic Capacitance 19 : RC Circuit - How to Solve Circuit with Resistor & Capacitor both",
+        vid: "zyZDmc-j_C0"
     },
 ],
 Current_Electricity: [
