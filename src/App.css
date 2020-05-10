@@ -265,3 +265,18 @@ main {
 .solar #solarIcon {
   display: block;
 }
+.font_changer h3{
+  font-family: 'Monoton', cursive;
+  font-size: 100px;
+}
+.font_changer h4{
+
+font-family: 'Tangerine', cursive;
+font-size: 70px;
+position: static;
+
+}
+.font_changer h1{
+  font-family: 'Charmonman', cursive;
+
+}
