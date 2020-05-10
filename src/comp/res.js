@@ -14,7 +14,9 @@ class Res extends React.Component {
   render(){
   return (
     <div className="Content" ref={el => (this.div = el)}>
-    <h1>Resources</h1>
+    <div class="font_changer">
+     <h1>Resources</h1>
+    </div>
 
      <div class="row">
       <div class="col s12 m5">
