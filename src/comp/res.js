@@ -4,7 +4,8 @@ import {theme} from "./script.js";
 import Uni from "./img/uni.jpg";
 import Sch from "./img/school.jpg";
 import {Link} from 'react-router-dom';
-
+import cbse1 from "./img/cbse1.jpg";
+import cbse2 from "./img/cbse2.jpg";
 
 
 class Res extends React.Component {
@@ -62,7 +63,7 @@ class Res extends React.Component {
        <Link to="/cbse12">
             <div class="card">
        <div class="card-image">
-         <img src={Uni}/>
+         <img src={cbse1}/>
          <span class="card-title">This one is For 12th Class CBSE students</span>
        </div>
        <div class="card-content">
@@ -79,7 +80,7 @@ class Res extends React.Component {
         <div class="card">
         <Link to="/cbse10">
    <div class="card-image">
-     <img src={Sch}/>
+     <img src={cbse2}/>
      <span class="card-title">This one is for 10th class Students </span>
    </div>
    <div class="card-content">
