@@ -38,7 +38,6 @@ class Math extends React.Component {
             <Link to="/video1/Relation_and_Function">
        <div class="card-image">
          <img src={maths5}/>
-         <span class="card-title">Relation and Function</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -55,7 +54,6 @@ class Math extends React.Component {
          <Link to="/video1/Inverse_Trigonometric_Functions">
    <div class="card-image">
      <img src={maths6}/>
-     <span class="card-title">Inverse Trigonometric Function</span>
    </div>
    <div class="card-content">
    <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -74,7 +72,6 @@ class Math extends React.Component {
         <Link to="/video1/Matrix">
   <div class="card-image">
     <img src={maths7}/>
-    <span class="card-title">Matrix</span>
   </div>
   <div class="card-content">
     <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -91,7 +88,6 @@ class Math extends React.Component {
     <Link to="/video1/Determinants">
 <div class="card-image">
 <img src={maths8}/>
-<span class="card-title">Determinants</span>
 </div>
 <div class="card-content">
 <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -111,7 +107,6 @@ class Math extends React.Component {
              <Link to="/video1/Continuity_and_Differentiability">
        <div class="card-image">
          <img src={maths9}/>
-         <span class="card-title">Continuity and Differentiability</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -128,7 +123,6 @@ class Math extends React.Component {
          <Link to="/video1/Application_of_Derivative">
    <div class="card-image">
      <img src={maths10}/>
-     <span class="card-title">Application of Derivatives</span>
    </div>
    <div class="card-content">
    <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -147,7 +141,6 @@ class Math extends React.Component {
              <Link to="/video1/Integrals">
        <div class="card-image">
          <img src={maths11}/>
-         <span class="card-title">Integrals</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -164,7 +157,6 @@ class Math extends React.Component {
          <Link to="/video1/Applications_of_the_Integrals">
    <div class="card-image">
      <img src={maths12}/>
-     <span class="card-title">Application of Integrals</span>
    </div>
    <div class="card-content">
    <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -183,7 +175,6 @@ class Math extends React.Component {
              <Link to="/video1/Differential_Equations">
        <div class="card-image">
          <img src={maths13}/>
-         <span class="card-title">Differential Equation</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -200,7 +191,6 @@ class Math extends React.Component {
          <Link to="/video1/Vectors">
    <div class="card-image">
      <img src={maths1}/>
-     <span class="card-title">Vectors</span>
    </div>
    <div class="card-content">
    <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -219,7 +209,6 @@ class Math extends React.Component {
             <Link to="/video1/Three_dimensional_Geometry">
        <div class="card-image">
          <img src={maths2}/>
-         <span class="card-title">3-Dimensional Geometry</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -236,7 +225,6 @@ class Math extends React.Component {
          <Link to="/video1/Linear_Programming">
    <div class="card-image">
      <img src={maths3}/>
-     <span class="card-title">Linear Programming</span>
    </div>
    <div class="card-content">
    <p>This section contains all the free Resources for 12th class Group Students.</p>
@@ -255,7 +243,6 @@ class Math extends React.Component {
         <Link to="/video1/Probability">
        <div class="card-image">
          <img src={maths4}/>
-         <span class="card-title">Probability</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free Resources for 12th class Group Students.</p>
