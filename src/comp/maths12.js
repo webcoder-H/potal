@@ -1,11 +1,22 @@
 import React , {Component}from 'react';
 import ReactDOM from "react-dom";
 import {theme} from "./script.js";
-import Phy from "./img/phy.jpg";
-import Chem from "./img/Chemistry.jpg";
+import maths1 from "./img/maths1.jpg";
 import For from "./img/4th.jpg";
 import The3 from "./img/3rd.jpg";
 import {Link} from 'react-router-dom';
+import maths2 from "./img/maths2.jpg";
+import maths3 from "./img/maths3.jpg";
+import maths4 from "./img/maths4.jpg";
+import maths5 from "./img/maths5.jpg";
+import maths6 from "./img/maths6.jpg";
+import maths7 from "./img/maths7.jpg";
+import maths8 from "./img/maths8.jpg";
+import maths9 from "./img/maths9.jpg";
+import maths10 from "./img/maths10.jpg";
+import maths11 from "./img/maths11.jpg";
+import maths12 from "./img/maths12.jpg";
+import maths13 from "./img/maths13.jpg";
 
 
 
@@ -19,18 +30,18 @@ class Math extends React.Component {
   render(){
   return (
     <div className="Content" ref={el => (this.div = el)}>
-    <h1>Resources For 12th Students</h1>
+    <div class="font_changer"><h1>Resources For 12th Students</h1></div>
 
      <div class="row">
       <div class="col s12 m5">
             <div class="card">
             <Link to="/video1/Relation_and_Function">
        <div class="card-image">
-         <img src={Phy}/>
+         <img src={maths5}/>
          <span class="card-title">Relation and Function</span>
        </div>
        <div class="card-content">
-         <p>This section contains all the free Resources for Physcis Group Students.</p>
+         <p>This section contains all the free Resources for 12th class Group Students.</p>
        </div>
        <div class="card-action">
           <Link to="/video1/Relation_and_Function"><a href="#">Get Started</a></Link>
@@ -43,11 +54,11 @@ class Math extends React.Component {
         <div class="card">
          <Link to="/video1/Inverse_Trigonometric_Functions">
    <div class="card-image">
-     <img src={Chem}/>
+     <img src={maths6}/>
      <span class="card-title">Inverse Trigonometric Function</span>
    </div>
    <div class="card-content">
-   <p>This section contains all the free Resources for Chemistry Group Students.</p>
+   <p>This section contains all the free Resources for 12th class Group Students.</p>
    </div>
    <div class="card-action">
       <Link to="/video1/Inverse_Trigonometric_Functions"><a href="#">Get Started</a></Link>
@@ -62,11 +73,11 @@ class Math extends React.Component {
        <div class="card">
         <Link to="/video1/Matrix">
   <div class="card-image">
-    <img src={The3}/>
+    <img src={maths7}/>
     <span class="card-title">Matrix</span>
   </div>
   <div class="card-content">
-    <p>This section contains all the free Resources for 3rd Semester Students.</p>
+    <p>This section contains all the free Resources for 12th class Group Students.</p>
   </div>
   <div class="card-action">
      <Link to="/video1/Matrix"><a href="#">Get Started</a></Link>
@@ -79,11 +90,11 @@ class Math extends React.Component {
    <div class="card">
     <Link to="/video1/Determinants">
 <div class="card-image">
-<img src={For}/>
+<img src={maths8}/>
 <span class="card-title">Determinants</span>
 </div>
 <div class="card-content">
-<p>This section contains all the free Resources for 4th Semester Students.</p>
+<p>This section contains all the free Resources for 12th class Group Students.</p>
 </div>
 <div class="card-action">
   <Link to="/video1/Determinants"><a href="#">Get Started</a></Link>
@@ -99,11 +110,11 @@ class Math extends React.Component {
             <div class="card">
              <Link to="/video1/Continuity_and_Differentiability">
        <div class="card-image">
-         <img src={Phy}/>
+         <img src={maths9}/>
          <span class="card-title">Continuity and Differentiability</span>
        </div>
        <div class="card-content">
-         <p>This section contains all the free Resources for Physcis Group Students.</p>
+         <p>This section contains all the free Resources for 12th class Group Students.</p>
        </div>
        <div class="card-action">
           <Link to="/video1/Continuity_and_Differentiability"><a href="#">Get Started</a></Link>
@@ -116,11 +127,11 @@ class Math extends React.Component {
         <div class="card">
          <Link to="/video1/Application_of_Derivative">
    <div class="card-image">
-     <img src={Chem}/>
+     <img src={maths10}/>
      <span class="card-title">Application of Derivatives</span>
    </div>
    <div class="card-content">
-   <p>This section contains all the free Resources for Chemistry Group Students.</p>
+   <p>This section contains all the free Resources for 12th class Group Students.</p>
    </div>
    <div class="card-action">
       <Link to="/video1/Application_of_Derivative"><a href="#">Get Started</a></Link>
@@ -135,11 +146,11 @@ class Math extends React.Component {
             <div class="card">
              <Link to="/video1/Integrals">
        <div class="card-image">
-         <img src={Phy}/>
+         <img src={maths11}/>
          <span class="card-title">Integrals</span>
        </div>
        <div class="card-content">
-         <p>This section contains all the free Resources for Physcis Group Students.</p>
+         <p>This section contains all the free Resources for 12th class Group Students.</p>
        </div>
        <div class="card-action">
           <Link to="/video1/Integrals"><a href="#">Get Started</a></Link>
@@ -152,11 +163,11 @@ class Math extends React.Component {
         <div class="card">
          <Link to="/video1/Applications_of_the_Integrals">
    <div class="card-image">
-     <img src={Chem}/>
+     <img src={maths12}/>
      <span class="card-title">Application of Integrals</span>
    </div>
    <div class="card-content">
-   <p>This section contains all the free Resources for Chemistry Group Students.</p>
+   <p>This section contains all the free Resources for 12th class Group Students.</p>
    </div>
    <div class="card-action">
       <Link to="/video1/Applications_of_the_Integrals"><a href="#">Get Started</a></Link>
@@ -171,11 +182,11 @@ class Math extends React.Component {
             <div class="card">
              <Link to="/video1/Differential_Equations">
        <div class="card-image">
-         <img src={Phy}/>
+         <img src={maths13}/>
          <span class="card-title">Differential Equation</span>
        </div>
        <div class="card-content">
-         <p>This section contains all the free Resources for Physcis Group Students.</p>
+         <p>This section contains all the free Resources for 12th class Group Students.</p>
        </div>
        <div class="card-action">
           <Link to="/video1/Differential_Equations"><a href="#">Get Started</a></Link>
@@ -188,11 +199,11 @@ class Math extends React.Component {
         <div class="card">
          <Link to="/video1/Vectors">
    <div class="card-image">
-     <img src={Chem}/>
+     <img src={maths1}/>
      <span class="card-title">Vectors</span>
    </div>
    <div class="card-content">
-   <p>This section contains all the free Resources for Chemistry Group Students.</p>
+   <p>This section contains all the free Resources for 12th class Group Students.</p>
    </div>
    <div class="card-action">
       <Link to="/video1/Vectors"><a href="#">Get Started</a></Link>
@@ -207,11 +218,11 @@ class Math extends React.Component {
             <div class="card">
             <Link to="/video1/Three_dimensional_Geometry">
        <div class="card-image">
-         <img src={Phy}/>
+         <img src={maths2}/>
          <span class="card-title">3-Dimensional Geometry</span>
        </div>
        <div class="card-content">
-         <p>This section contains all the free Resources for Physcis Group Students.</p>
+         <p>This section contains all the free Resources for 12th class Group Students.</p>
        </div>
        <div class="card-action">
           <Link to="/video1/Three_dimensional_Geometry"><a href="#">Get Started</a></Link>
@@ -224,11 +235,11 @@ class Math extends React.Component {
         <div class="card">
          <Link to="/video1/Linear_Programming">
    <div class="card-image">
-     <img src={Chem}/>
+     <img src={maths3}/>
      <span class="card-title">Linear Programming</span>
    </div>
    <div class="card-content">
-   <p>This section contains all the free Resources for Chemistry Group Students.</p>
+   <p>This section contains all the free Resources for 12th class Group Students.</p>
    </div>
    <div class="card-action">
       <Link to="/video1/Linear_Programming"><a href="#">Get Started</a></Link>
@@ -243,11 +254,11 @@ class Math extends React.Component {
         <div class="card">
         <Link to="/video1/Probability">
        <div class="card-image">
-         <img src={Phy}/>
+         <img src={maths4}/>
          <span class="card-title">Probability</span>
        </div>
        <div class="card-content">
-         <p>This section contains all the free Resources for Physcis Group Students.</p>
+         <p>This section contains all the free Resources for 12th class Group Students.</p>
        </div>
        <div class="card-action">
           <Link to="/video1/Probability"><a href="#">Get Started</a></Link>
