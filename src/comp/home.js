@@ -10,8 +10,10 @@ class home extends React.Component {
   render(){
   return (
     <div className="Content" ref={el => (this.div = el)}>
-     <h3>Educational Potal</h3>
+
      <h4>That is what you can call this site for now...</h4>
+
+
      <Res/>
 
 
