@@ -39,17 +39,17 @@ class Tenth extends React.Component {
      </Link>
    </div>
    <div class="col s12 m5">
-       <Link to="/maths12">
+       <Link to="/science">
             <div class="card">
        <div class="card-image">
          <img src={Phy}/>
-         <span class="card-title">Physics</span>
+         <span class="card-title">Science</span>
        </div>
        <div class="card-content">
          <p>This section contains all the free resouces from the youtube as well as other resouces contributed by University Students and Teachers.</p>
        </div>
        <div class="card-action">
-         <Link to="/maths12">Get Started</Link>
+         <Link to="/science">Get Started</Link>
        </div>
      </div>
      </Link>

@@ -5,6 +5,8 @@ import Tw12 from "./img/12.jpg";
 import El11 from "./img/11.jpg";
 import Th10 from "./img/10.jpg";
 import {Link} from 'react-router-dom';
+import El12 from "./img/cbse1.jpg";
+import El13 from "./img/cbse2.jpg";
 
 
 
@@ -99,6 +101,44 @@ class Sch extends React.Component {
  </div>
 
  </div>
+ <div class="row">
+  <div class="col s12 m5">
+    <Link to="/cbse10">
+        <div class="card">
+   <div class="card-image">
+     <img src={El13}/>
+     <span class="card-title">10th Group Resources</span>
+   </div>
+   <div class="card-content">
+     <p>This section contains all the free Resources for 10th Group Students.</p>
+   </div>
+   <div class="card-action">
+    <a href="#">Get Started</a>
+   </div>
+ </div>
+ </Link>
+</div>
+
+<div class="col s12 m5">
+<Link to="/cbse12">
+
+    <div class="card">
+<div class="card-image">
+ <img src={El12}/>
+ <span class="card-title">12th Group Resources</span>
+</div>
+<div class="card-content">
+<p>This section contains all the free Resources for 12th Group Students.</p>
+</div>
+<div class="card-action">
+ <a href="#">Get Started</a>
+</div>
+
+</div>
+</Link>
+</div>
+
+</div>
 
 
  <br/>
